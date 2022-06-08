@@ -1,0 +1,168 @@
+@font-face
+{
+    font-family:'Quicksand', sans-serif ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : 'Quicksand', sans-serif ;
+    scroll-behavior: smooth;
+
+}
+
+a,button,.submit
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+h3
+{
+    text-transform: uppercase;
+}
+input
+{
+    border:solid 2px #fff ;
+    border-radius:5px 5px ;
+    height:20px ;
+}
+
+
+nav
+{
+    width: 100%;
+    position:fixed ;
+    top: 0px; 
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0px 5px 15px 0px #181818;
+}
+
+.logo
+{
+    flex: 1;
+    padding: 5px;
+    color: #011663;
+    font-weight: bold;
+
+}
+.logo span{
+    color: #fb911f;
+}
+.menu
+{
+    padding: 5px;
+}
+.menu ul
+{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.menu ul li
+{
+    color:#011663 ;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px 5px;
+}
+.menu ul li a
+{
+    color: #000;
+}
+.menu ul li:hover
+{
+    background-color: #fb911f;
+    color: #fff;
+}
+
+h1
+{
+    flex: 1;
+    padding: 60px;
+    color: #011663;
+    text-align: center;
+    font-weight: bold;
+
+}
+h1 span{
+    color: #fb911f;
+}
+.site-container
+{
+    margin: 30px auto;
+    height: auto;
+    max-width: 1300px ;
+    width: 80%;
+}
+.article-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(256px, 1fr));
+    gap: 2rem;
+}
+article
+{
+     background: white ;
+     border-radius: 20px;
+     transition: 0.3s;
+     box-shadow: 0 4px 20px 0 rgb(34, 68, 123,0.2);
+     cursor: pointer;
+}
+h4
+{
+   
+   color: #011663;
+   text-align: center;
+}
+figure
+{
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px0 0;
+}
+.article-content
+{
+    padding: 2rem;
+}
+.article-content a
+{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;color: #fb911f;
+    display:block;
+    text-decoration: none;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+footer .first_line
+{
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.contact,.join_us
+{
+    flex: 4;
+}
+footer .join_us
+{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+footer 
